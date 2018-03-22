@@ -8,8 +8,8 @@ $(document).ready(function() {
   var sex = $("#preference").val();
 
 
-  var interests = $("#interests").val()
-
+  var interests = $("#interests").val();
+  console.log(interests);
 
 
   if (age < 18) {
@@ -30,13 +30,14 @@ $(document).ready(function() {
 
   }
 
-  if (sex == 'female' && interests == 'video-games'){
+  if (sex == 'female' && interests == 'video games'){
+    console.log("whatup");
     $(".female").hide();
     $(".video-games").show();
 
   }
 
-  if (sex == 'male' && interests == 'video-games'){
+  if (sex == 'male' && interests == 'video games'){
     $(".male").hide();
     $(".video-games").show();
 
@@ -78,7 +79,7 @@ $(document).ready(function() {
 
 
     console.log("hello");
-  
+
 
 
 
