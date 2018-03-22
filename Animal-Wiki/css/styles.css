@@ -1,0 +1,16 @@
+#turtleFacts {
+  display: none;
+}
+
+#bearFacts {
+  display: none;
+}
+
+#sharkFacts {
+  display: none;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
